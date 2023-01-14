@@ -1,0 +1,234 @@
+body{
+    background-color: #111111 ;
+}
+.scale{
+    width: 100%;
+    height: 100%;
+}
+.sidebar{
+    display: flex;
+    flex-flow: column wrap;
+    background: #333333;
+    position: fixed;
+    
+width: 333px;
+height: 1075px;
+left: 19px;
+top: 19px;
+border-radius: 50px;
+}
+.sidebar img{
+    
+    box-sizing: border-box;
+    position: absolute;
+    width: 225px;
+    height: 250px;
+    left: 47px;
+    top: 26px;
+    background: url(image.png);
+    border: 2px solid #333333;
+    border-radius: 600px;
+}
+.sidebar h1{
+    position: absolute;
+width: 132px;
+height: 36px;
+left: 104px;
+top: 272px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.sidebar p{
+    position: absolute;
+width: 87px;
+height: 27px;
+left: 125px;
+top: 308px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.5);
+}
+.sidebar .bt1{
+    position: absolute;
+width: 298px;
+height: 61px;
+left: 18px;
+top: 370px;
+color: #555555;
+background: #111111;
+border-radius: 30px;
+}
+.sidebar .bt2{position: absolute;
+    width: 298px;
+    height: 61px;
+    left: 18px;
+    top: 455px;
+    color: #555555;
+    background: #111111;
+    border-radius: 30px;
+}
+.sidebar .bt3{
+    position: absolute;
+width: 298px;
+height: 61px;
+left: 18px;
+top: 539px;
+color: #555555;
+background: #111111;
+border-radius: 30px;
+   
+}
+.main{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1144px;
+    height: 588px;
+    left: 369px;
+    top: 19px;
+    align-content: ;
+    background: #262626;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 50px;
+}
+.main h1{
+    position: absolute;
+    width: 231px;
+    height: 36px;
+    left: 36px;
+    top: 7px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.main p{
+    position: absolute;
+    width: 370px;
+    height: 430px;
+    left: 18px;
+    top: 78px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.main a{
+    position: absolute;
+    width: 472px;
+    height: 430px;
+    left: 18px;
+    top: 480px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+    inline-size: 8%;
+    block-size: 8%;
+
+}
+.main a:hover{
+    color: rgba(158, 71, 177, 0.5);
+}
+.main img{
+    position: absolute;
+    width: 722px;
+    height: 430px;
+    left: 400px;
+    top: 78px;
+    background: url(image.png);
+    border-radius: 60px;
+}
+.table{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1144px;
+height: 464px;
+left: 369px;
+top: 636px;
+
+background: #262626;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+}
+.table h1{
+    position: absolute;
+width: 199px;
+height: 43px;
+left: 36px;
+top: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+}
+.table table{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1060px;
+    height: 331px;
+    left: 41px;
+    top: 93px;
+
+}
+.table table, th, td{
+    border: 1px solid rgba(255, 255, 255, 0.5);;
+    border-collapse: collapse;
+    padding: 10px 5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+}
+.bt1:hover{
+    width: 302px;
+height: 65px;
+color: #b1da38;
+background: #db3232;
+border-radius: 30px;
+cursor: pointer;
+}
+
+.bt2:hover{
+    width: 302px;
+height: 65px;
+color: #b1da38;
+background: #db3232;
+border-radius: 30px;
+cursor: pointer;
+}
+
+.bt3:hover{
+    width: 302px;
+height: 65px;
+color: #b1da38;
+background: #db3232;
+border-radius: 30px;
+cursor: pointer;
+}
